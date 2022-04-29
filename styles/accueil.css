@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+
 * {
     box-sizing: border-box;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 html,
@@ -16,10 +20,22 @@ body {
 }
 
 .header {
+    overflow: clip;
     background-color: #777777;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    width: 30%;
+    color: white;
+    text-shadow: 5px 0 0 #3b3428;
+    font-size: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.header h1 {
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -29,6 +45,9 @@ body {
     margin: 20px;
     border: 1px solid white;
     border-radius: 25px;
+    position: sticky;
+    top: 0;
+    font-size: 30px;
 }
 
 
@@ -48,9 +67,11 @@ body {
     background-size: 100% 100%;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar .active {
     color: black;
 }
+
 
 
 
@@ -93,5 +114,61 @@ body {
     background-color: #777777;
     text-align: center;
     padding: 10px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 35%;
+}
+
+.footer .links h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.footer .links .round .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
     margin: 20px;
+}
+
+.footer .links .round .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-gitlab {
+    background: #e6e2f2;
+    color: black;
+}
+
+.fa-instagram {
+    background: #4178a0;
+    color: white;
+}
+
+.footer .members h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.footer .members .creators ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer .members .creators li {
+    display: inline;
+    font-size: 25px;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+
+
+.footer .members .copyright {
+    color: white;
 }
