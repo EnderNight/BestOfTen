@@ -14,7 +14,7 @@ body {
 body {
     padding: 10px;
     background-image: url("../img/background_dark.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-size: cover;
 }
@@ -78,6 +78,61 @@ body {
 
 
 
+
+.content {
+    margin: 20px;
+    background-color: #5d5446;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.column-left {
+    width: 75%;
+    float: left;
+}
+
+.column-right {
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .column-left, .column-right {
+        width: 100%;
+    }
+}
+
+.card {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     background-color: #777777;
     text-align: center;
@@ -85,7 +140,7 @@ body {
     margin: 20px auto;
     border: 1px solid white;
     border-radius: 20px;
-    width: 35%;
+    width: 40%;
 }
 
 .footer .links h3 {
