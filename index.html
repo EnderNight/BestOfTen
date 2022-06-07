@@ -1,167 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Best Of Ten</title>
-</head>
-<body>
-    <div class="header">
-        <h1>Best Of Ten</h1>
-    </div>
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-    <div class="navbar">
-        <a href="index.html" class="active">Accueil</a>
-        <a href="presentation.html">Presentation</a>
-        <a href="bibliographie.html">Bibliographie</a>
-        <a href="download.html" style="float: right;">Download</a>
-    </div>
-
-
-    <div class="content">
-        <div class="text">
-            <h1>BIENVENUE !</h1>
-            <p>Le groupe « Less An Year » est fier de vous présenter le jeu Best Of Ten !!</p>
-            <p class="bigp">L'idée de Best Of Ten vient des couloirs de EPITA, de nombreux étudiants jouent entre eux, aux intercours, à un jeu de plateforme de même type : Stumble Guys qui est un clone mobile de Fall Guys. Les élèves s'amusent entre eux et rigolent, et c'est ce que l'on recherche dans la conception de notre jeu : du fun et de l'amusement. Beaucoup de jeux auxquels nous avons joué nous ont inspirés pour les graphismes en ombrage de celluloïd <i>Cell Shading</i>, notamment Fortnite : le <i>Cell Shading</i> est une technique graphique qui consiste à représenter des décors de la réalité avec des graphismes cartoons. Après plusieurs idées ajoutées ou écartées, notre jeu a pris forme avec des originalités telles que des objets intégrés au décor avec lesquels on peut interagir ou encore des bonus récupérables sur le parcours.</p>
-        </div>
-         <!-- Container for the image gallery -->
-<div class="container">
-
-    <!-- Full-width images with number text -->
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-        <img src="img/ChoosePlayer.PNG" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-        <img src="img/Deserttt.png" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-        <img src="img/MenuPause.PNG" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-        <img src="img/Menuprincipal.JPG" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">5 / 6</div>
-        <img src="img/Menus.PNG" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">6 / 6</div>
-        <img src="img/ScreenBarriere.png" style="width:100%">
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-    <!-- Image text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  
-    <!-- Thumbnail images -->
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="img/ChoosePlayer.PNG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/Deserttt.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/MenuPause.PNG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/Menuprincipal.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/Menus.PNG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="img/ScreenBarriere.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-      </div>
-    </div>
-  </div> 
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <div class="footer">
-        <div class="links">
-            <h3>LIENS</h3>
-            <div class="round">
-                <a href="#"><i class="fa fa-gitlab" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-        </div>
-
-        <div class="members">
-            <h2>CREATEURS</h2>
-            <div class="creators">
-                <ul>
-                    <li>Mathieu</li>
-                    <li>Jules</li>
-                    <li>LucasLeBoss</li>
-                    <li>Matheo</li>
-                </ul>
-            </div>
-            <div class="copyright">
-                2022 | Team Less An Year
-            </div>
-        </div>
-    </div>
-
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        // Next/previous controls
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("demo");
-        let captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-        } 
-    </script>
-
-
-</body>
-</html>
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <link rel="stylesheet" href="styles/style.css">\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">\
+    \
+    <title>Best Of Ten</title>\
+</head>\
+<body>\
+    <div class="header">\
+        <h1>Best Of Ten</h1>\
+    </div>\
+\
+    <div class="navbar">\
+        <a href="index.html" class="active">Accueil</a>\
+        <a href="presentation.html">Presentation</a>\
+        <a href="equipe.html">Equipe</a>\
+        <a href="download.html" style="float: right;">Download</a>\
+    </div>\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+    <div class="content">\
+        <div class="text">\
+            <h1>BIENVENUE !</h1>\
+            <p>L'\'e9quipe LESS AN YEAR est fi\'e8re de vous pr\'e9senter le jeu BEST OF TEN!!</p>\
+            <p class="bigp">Ce jeu de parcours gratuit, sans prise de t\'eate saura vous amuser que vous soyez entre amis, en ligne ou m\'eame hors-ligne ! Parcourez diff\'e9rents univers lors de trois manches vives en emotions et t\'e2chez de terminer premier ... Le meilleur des 10 joueurs remportera la victoire !!</p>\
+        </div>\
+        <div class="surgallery">\
+            <div class="gallery">\
+                <a target="_blank" href="#">\
+                <img src="img/Jaquette.png" alt="jaquette">\
+                </a>\
+            </div>\
+        </div>\
+    </div>\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+    <div class="footer">\
+        <div class="links">\
+            <h3>LIENS</h3>\
+            <div class="round">\
+                <a href="#"><i class="fa fa-gitlab" aria-hidden="true"></i></a>\
+                <a href="https://www.instagram.com/team_lessanyear"><i class="fa fa-instagram" aria-hidden="true"></i></a>\
+            </div>\
+        </div>\
+\
+        <div class="members">\
+            <h2>CREATEURS</h2>\
+            <div class="creators">\
+                <ul>\
+                    <li>Mathieu</li>\
+                    <li>Jules</li>\
+                    <li>LucasLeBoss</li>\
+                    <li>Matheo</li>\
+                </ul>\
+            </div>\
+            <div class="copyright">\
+                2022 | Team LessAnYear\
+            </div>\
+        </div>\
+    </div>\
+\
+</body>\
+</html>\
+}
