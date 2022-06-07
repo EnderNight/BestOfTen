@@ -123,6 +123,7 @@ body {
         border: 1px solid white;
         border-radius: 10px;
         white-space: nowrap;
+        min-width: 300px;
     }
 
     /*.header {
@@ -242,6 +243,7 @@ div.desc {
     border: 1px solid white;
     border-radius: 15px;
     font-size: 10px;
+    padding: 20px;
 }
 
 .content_articles img {
@@ -503,7 +505,23 @@ transition: all 200ms ease-in-out;
     margin: 20px;
     background-color: #5d5446;
     border: 1px solid white;
-    border-radius: 15px;    
+    border-radius: 15px; 
+    font-size: 40px;   
+}
+
+.liens h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.biblio {
+    text-align: center;
+    color: white;
+}
+
+.biblio a{
+    text-decoration: none;
 }
 
 
