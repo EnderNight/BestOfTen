@@ -281,6 +281,19 @@ div.desc {
 }
 
 
+.content .image {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.jaquette {
+    width: 576,5px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
 * {
 box-sizing: border-box;
 }
