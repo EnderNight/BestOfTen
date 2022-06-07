@@ -73,8 +73,25 @@ body {
     color: black;
 }
 
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 1000px) {
+    .navbar a {
+        width: 10%;
+        font-size: 15px;
+    }
+
+    .header {
+        overflow: clip;
+        background-color: #777777;
+        text-align: center;
+        padding: 20px;
+        margin: 20px auto;
+        width: 30%;
+        color: white;
+        text-shadow: 5px 0 0 #3b3428;
+        font-size: 30px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
 }
 
 
@@ -261,8 +278,131 @@ div.desc {
 }
 
 
+* {
+box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+margin: 75px;
+position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+text-align: center;
+background-color: #222;
+padding: 2px 16px;
+color: white;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Six columns side by side */
+.column {
+float: left;
+width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
 
 
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-btn {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #fff;
+}
+
+.download-btn .top{
+transition: all 200ms ease-in-out;
+}
+
+.download-btn:hover .top{
+    margin-top: -50px;
+}
+
+.download-btn div {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+}
 
 
 
