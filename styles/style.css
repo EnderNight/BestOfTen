@@ -457,10 +457,6 @@ opacity: 1;
 transition: all 200ms ease-in-out;
 }
 
-.download-btn:hover .top{
-    margin-top: -50px;
-}
-
 .download-btn div {
     width: 100%;
     height: 100%;
